@@ -1,102 +1,139 @@
-# Cybersecurity Internship Tasks
+Cybersecurity Internship Tasks
 
 This repository contains the practical tasks completed during my Cybersecurity Internship at ApexPlanet. The tasks were performed in a controlled lab environment using Kali Linux and various cybersecurity tools.
 
 ---
 
-# Task 1 – Network Scanning & Analysis
+Task 1 – Foundations of Cybersecurity
 
-## Objective
+Objective
+
+To understand fundamental cybersecurity concepts, threats, vulnerabilities, and security principles.
+
+Tools Used
+
+- Kali Linux
+- VirtualBox
+- DVWA
+
+Activities Performed
+
+- Studied cybersecurity fundamentals
+- Learned common cyber threats and attacks
+- Set up a cybersecurity lab environment
+- Explored security concepts and best practices
+
+Learning Outcome
+
+Gained foundational knowledge of cybersecurity, threat landscapes, and secure computing practices.
+
+---
+
+Task 2 – Network Security & Scanning
+
+Objective
+
 To perform network scanning and analysis using cybersecurity tools and identify active hosts, open ports, and running services.
 
-## Tools Used
+Tools Used
+
 - Kali Linux
 - Nmap
 - Wireshark
 
-## Activities Performed
+Activities Performed
+
 - Performed network scanning using Nmap
 - Identified live hosts in the network
 - Scanned open ports and services
 - Captured and analyzed network packets using Wireshark
 
-## Learning Outcome
+Learning Outcome
+
 Gained practical knowledge of network reconnaissance, port scanning, packet analysis, and basic network security concepts.
 
 ---
 
-# Task 2 – Security Testing & Analysis
+Task 3 – Web Application Security
 
-## Objective
-To perform security testing and analyze vulnerabilities using practical cybersecurity techniques.
+Objective
 
-## Tools Used
+To identify and understand common web application vulnerabilities in a controlled environment.
+
+Tools Used
+
 - Kali Linux
-- Burp Suite
-- Wireshark
-- Nmap
-
-## Activities Performed
-- Conducted vulnerability testing
-- Analyzed HTTP requests and responses
-- Performed packet analysis
-- Studied attack and mitigation techniques
-
-## Learning Outcome
-Enhanced practical skills in cybersecurity testing, vulnerability assessment, and web security analysis.
-
----
-
-# Task 3 – Web Application Security
-
-## Objective
-To identify and exploit OWASP Top 10 vulnerabilities in a controlled DVWA environment and understand mitigation techniques.
-
-## Tools Used
-- Kali Linux
-- DVWA (Damn Vulnerable Web Application)
+- DVWA
 - Burp Suite
 - Firefox Browser
-- Apache Server
-- MySQL
 
-## Activities Performed
+Activities Performed
 
-### 1. SQL Injection
-- Performed SQL Injection attacks
-- Extracted database information
-- Learned prevention using Prepared Statements
+- Tested SQL Injection vulnerabilities
+- Demonstrated Cross-Site Scripting (XSS)
+- Performed CSRF testing
+- Analyzed web application security weaknesses
 
-### 2. Cross-Site Scripting (XSS)
-- Demonstrated Stored and Reflected XSS
-- Tested JavaScript payloads
-- Studied Content Security Policy (CSP)
+Learning Outcome
 
-### 3. Cross-Site Request Forgery (CSRF)
-- Created CSRF attack URLs
-- Changed passwords using forged requests
-- Learned token-based protection
-
-### 4. File Inclusion Attacks
-- Tested Local File Inclusion (LFI)
-- Understood Remote File Inclusion (RFI)
-
-### 5. Burp Suite Advanced
-- Intercepted HTTP requests
-- Modified requests and responses
-- Used Intruder for fuzzing
-
-### 6. Web Security Headers
-- Configured HTTP security headers
-- Analyzed browser security protections
-
-## Learning Outcome
-Improved practical understanding of web application vulnerabilities, penetration testing techniques, and secure coding practices.
+Improved understanding of web application vulnerabilities, penetration testing techniques, and secure coding practices.
 
 ---
 
+Task 4 – Exploitation & System Security
 
+Objective
 
-# Conclusion
+To understand penetration testing methodology and exploit vulnerabilities in a controlled lab environment.
 
-This internship provided hands-on experience in cybersecurity concepts including network analysis, web application security, vulnerability testing, and secure system practices.
+Tools Used
+
+- Kali Linux
+- Metasploit Framework
+- Nmap
+- DVWA
+
+Activities Performed
+
+- Performed reconnaissance and enumeration
+- Exploited identified vulnerabilities using Metasploit
+- Conducted post-exploitation activities
+- Studied mitigation and security recommendations
+
+Learning Outcome
+
+Developed practical skills in penetration testing, exploitation techniques, and vulnerability management.
+
+---
+
+Task 5 – Capstone Project & Incident Response
+
+Objective
+
+To perform web application penetration testing and identify security vulnerabilities in a controlled environment.
+
+Tools Used
+
+- Kali Linux
+- DVWA
+- Burp Suite
+- Nmap
+- Nikto
+
+Activities Performed
+
+- Conducted reconnaissance and vulnerability scanning
+- Identified and tested web application vulnerabilities
+- Performed security assessment and analysis
+- Simulated incident response and mitigation
+- Documented findings and recommendations
+
+Learning Outcome
+
+Enhanced practical skills in web application security, penetration testing, vulnerability assessment, and incident response.
+
+---
+
+Conclusion
+
+This internship provided hands-on experience in cybersecurity fundamentals, network security, web application security, penetration testing, vulnerability assessment, and incident response practices.
